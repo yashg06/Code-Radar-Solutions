@@ -7,7 +7,7 @@ int main() {
     scanf("%lf", &num);  // %lf is used for double
 
     // Printing output
-    printf("You entered:\n%lf\n", num);
+    printf("You entered: %lf\n", num);
 
     return 0;
 }
