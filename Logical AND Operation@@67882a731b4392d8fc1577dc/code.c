@@ -6,8 +6,8 @@ int main() {
     // Taking input
     scanf("%d %d", &num1, &num2);
 
-    // Checking if num1 is greater than or equal to num2
-    if (num1 && num2) {
+    // Checking if both numbers are greater than zero using multiplication
+    if (num1 * num2 > 0) {
         printf("True\n");
     } else {
         printf("False\n");
